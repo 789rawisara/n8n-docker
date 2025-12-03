@@ -5,7 +5,7 @@ set -e
 export N8N_PORT="${PORT:-5678}"
 
 # ปิด runners ถ้ายังไม่ใช้
-export N8N_RUNNERS_DISABLED="${N8N_RUNNERS_DISABLED:-true}"
+#export N8N_RUNNERS_DISABLED="${N8N_RUNNERS_DISABLED:-true}"
 
 # เชื่อใจ proxy ทั้งหมด (แก้ X-Forwarded-For บน Render)
 export N8N_TRUSTED_PROXIES="${N8N_TRUSTED_PROXIES:-0.0.0.0/0}"
