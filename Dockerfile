@@ -1,4 +1,4 @@
-FROM n8nio/n8n:1.116.2
+FROM n8nio/n8n:latest
 
 # ใช้ root ชั่วคราวเพื่อติดตั้ง entrypoint
 USER root
